@@ -1,0 +1,25 @@
+{
+  "name": "paranapoth",
+  "version": "1.0.0",
+  "description": "Charity project for parana poth donations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paranapoth/paranapoth.git"
+  },
+  "keywords": [
+    "parana",
+    "poth",
+    "old",
+    "books"
+  ],
+  "author": "Parana Poth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paranapoth/paranapoth/issues"
+  },
+  "homepage": "https://github.com/paranapoth/paranapoth#readme"
+}
