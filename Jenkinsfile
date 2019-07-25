@@ -43,4 +43,10 @@ node {
         archiveArtifacts artifacts: '**/build/libs/*.jar', fingerprint: true
     }
 
+    stage('quality analysis') {
+        withSonarQubeEnv('sonar') {
+            sh "./gradlew sonarqube --no-daemon"
+        }
+    }
+
 }
