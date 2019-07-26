@@ -1,6 +1,8 @@
 #!/usr/bin/env groovy
 
 node {
+    download = true
+
     stage('checkout') {
         checkout scm
     }
